@@ -1,10 +1,11 @@
 {
   "name": "week-18",
   "private": true,
+ 
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "deploy": "turbo run build --scope=app --includeDependencies --no-deps",
+    "deploy": "turbo run build --scope=app --include-dependencies --no-deps",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
